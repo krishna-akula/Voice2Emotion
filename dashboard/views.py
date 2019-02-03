@@ -16,3 +16,6 @@ def index(request):
             'result' : ans
         })
     return render(request, 'index.html')
+
+def index1(request):
+    return render(request,'index1.html')
